@@ -27,7 +27,7 @@ for (let seat of seats) {
         if(totalSelect < 4){
             // selected list
             seat.classList.add("bg-[#1DD100]","text-[#FFFFFF]");
-            seat.classList.remove("bg-[#E6E6E7]");
+            seat.classList.remove("bg-[#F7F8F8]");
             seat.setAttribute("disabled", "disabled");
             // count list
             totalSelect += 1;
