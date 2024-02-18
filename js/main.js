@@ -4,7 +4,6 @@ let totalSeatsElement = document.getElementById("total-seat");
 let selectList = document.getElementById("select-list");
 let totalPrice = document.getElementById("total-price");
 let totalSelectElement = document.getElementById("total-select");
-
 let discountPrice = document.getElementById("discount-price");
 let couponInput = document.getElementById("coupon-input");
 let couponButton = document.getElementById("coupon-button");
@@ -68,7 +67,6 @@ for (let seat of seats) {
     });
 }
 // calculat coupon
-
 couponButton.addEventListener("click",function(){
     let couponText = couponInput.value;
     if(couponText == "NEW15"){
